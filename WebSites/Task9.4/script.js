@@ -6,7 +6,10 @@
         body = document.body,
         pageHashList = ['/', '/page1', '/page2'],
         pageNumber = 0,
-        timePageChange = 5000,
+        countdownMax = 5,
+        countdown = countdownMax,
+        timeTick = 1000,
+        timerContainer,
         isPlayState = true,
         intervalId;
 
@@ -18,6 +21,9 @@
     window.addEventListener('load', router);
 
     document.addEventListener('DOMContentLoaded', function () {
+        timerContainer = document.getElementById('timer');
+        timerContainer.innerText = countdownMax;
+
         body.addEventListener('click', function (event) {
             var target = event.target;
 
@@ -33,7 +39,7 @@
                 initInterval();
             }
 
-            isPlayState = !isPlayState;            
+            isPlayState = !isPlayState;
         });
     });
 
@@ -41,10 +47,17 @@
 
     function initInterval() {
         intervalId = setInterval(function () {
-            changeLocationHash(pageHashList[pageNumber]);
-            pageNumber++;
-            pageNumber %= pageHashList.length;
-        }, timePageChange);
+            countdown--;
+            timerContainer.innerText = countdown;
+
+            if (countdown < 1) {
+                pageNumber++;
+                pageNumber %= pageHashList.length;
+                changeLocationHash(pageHashList[pageNumber]);
+                countdown = countdownMax;
+            }
+            
+        }, timeTick);
         //interval should update every 1 second 
     }
 
@@ -59,6 +72,7 @@
 
     function router() {
         var url = location.hash.slice(1) || '/',
+            pageNumber = pageHashList.indexOf(url),
             route = routes[url];
 
         el = el || document.getElementById('view');
