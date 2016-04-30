@@ -1,0 +1,5 @@
+c:\users\master\documents\visual studio 2015\Projects\Task7\Task7.3\bin\Debug\Task7.3.exe.config
+c:\users\master\documents\visual studio 2015\Projects\Task7\Task7.3\bin\Debug\Task7.3.exe
+c:\users\master\documents\visual studio 2015\Projects\Task7\Task7.3\bin\Debug\Task7.3.pdb
+c:\users\master\documents\visual studio 2015\Projects\Task7\Task7.3\obj\Debug\Task7.3.exe
+c:\users\master\documents\visual studio 2015\Projects\Task7\Task7.3\obj\Debug\Task7.3.pdb

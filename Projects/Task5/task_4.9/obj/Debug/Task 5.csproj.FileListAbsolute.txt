@@ -1,0 +1,18 @@
+C:\Users\Master\Desktop\JJ\external tasks\task_4.9\task_4.9\bin\Debug\task_4.9.exe.config
+C:\Users\Master\Desktop\JJ\external tasks\task_4.9\task_4.9\bin\Debug\task_4.9.exe
+C:\Users\Master\Desktop\JJ\external tasks\task_4.9\task_4.9\bin\Debug\task_4.9.pdb
+C:\Users\Master\Desktop\JJ\external tasks\task_4.9\task_4.9\obj\Debug\Task 5.csprojResolveAssemblyReference.cache
+C:\Users\Master\Desktop\JJ\external tasks\task_4.9\task_4.9\obj\Debug\Task_5.Form1.resources
+C:\Users\Master\Desktop\JJ\external tasks\task_4.9\task_4.9\obj\Debug\task_4._9.Properties.Resources.resources
+C:\Users\Master\Desktop\JJ\external tasks\task_4.9\task_4.9\obj\Debug\Task 5.csproj.GenerateResource.Cache
+C:\Users\Master\Desktop\JJ\external tasks\task_4.9\task_4.9\obj\Debug\task_4.9.exe
+C:\Users\Master\Desktop\JJ\external tasks\task_4.9\task_4.9\obj\Debug\task_4.9.pdb
+C:\Users\Master\Documents\Visual Studio 2015\Projects\Task5\task_4.9\bin\Debug\task_4.9.exe.config
+C:\Users\Master\Documents\Visual Studio 2015\Projects\Task5\task_4.9\obj\Debug\task_4.9.exe
+C:\Users\Master\Documents\Visual Studio 2015\Projects\Task5\task_4.9\obj\Debug\task_4.9.pdb
+C:\Users\Master\Documents\Visual Studio 2015\Projects\Task5\task_4.9\bin\Debug\task_4.9.exe
+C:\Users\Master\Documents\Visual Studio 2015\Projects\Task5\task_4.9\bin\Debug\task_4.9.pdb
+C:\Users\Master\Documents\Visual Studio 2015\Projects\Task5\task_4.9\obj\Debug\Task 5.csprojResolveAssemblyReference.cache
+C:\Users\Master\Documents\Visual Studio 2015\Projects\Task5\task_4.9\obj\Debug\Task_5.Form1.resources
+C:\Users\Master\Documents\Visual Studio 2015\Projects\Task5\task_4.9\obj\Debug\task_4._9.Properties.Resources.resources
+C:\Users\Master\Documents\Visual Studio 2015\Projects\Task5\task_4.9\obj\Debug\Task 5.csproj.GenerateResource.Cache

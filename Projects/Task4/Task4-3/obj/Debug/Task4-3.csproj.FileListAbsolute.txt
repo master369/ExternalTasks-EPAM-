@@ -1,0 +1,5 @@
+c:\users\master\documents\visual studio 2015\Projects\Task4\Task4-3\bin\Debug\Task4-3.exe.config
+c:\users\master\documents\visual studio 2015\Projects\Task4\Task4-3\bin\Debug\Task4-3.exe
+c:\users\master\documents\visual studio 2015\Projects\Task4\Task4-3\bin\Debug\Task4-3.pdb
+c:\users\master\documents\visual studio 2015\Projects\Task4\Task4-3\obj\Debug\Task4-3.exe
+c:\users\master\documents\visual studio 2015\Projects\Task4\Task4-3\obj\Debug\Task4-3.pdb

@@ -1,0 +1,10 @@
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.Common.Entities\bin\Release\6.1.Common.Entities.dll
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.Common.Entities\bin\Release\6.1.Common.Entities.pdb
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.Common.Entities\obj\Release\6.1.Common.Entities.dll
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.Common.Entities\obj\Release\6.1.Common.Entities.pdb
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1.Common.Entities\bin\Release\6.1.Common.Entities.dll
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1.Common.Entities\bin\Release\6.1.Common.Entities.pdb
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1.Common.Entities\bin\Release\log4net.dll
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1.Common.Entities\bin\Release\log4net.xml
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1.Common.Entities\obj\Release\6.1.Common.Entities.dll
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1.Common.Entities\obj\Release\6.1.Common.Entities.pdb

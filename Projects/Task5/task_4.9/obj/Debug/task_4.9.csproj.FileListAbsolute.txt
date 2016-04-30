@@ -1,0 +1,9 @@
+C:\Users\Артур\Documents\Visual Studio 2013\Projects\task_4.9\task_4.9\bin\Debug\task_4.9.exe.config
+C:\Users\Артур\Documents\Visual Studio 2013\Projects\task_4.9\task_4.9\bin\Debug\task_4.9.exe
+C:\Users\Артур\Documents\Visual Studio 2013\Projects\task_4.9\task_4.9\bin\Debug\task_4.9.pdb
+C:\Users\Артур\Documents\Visual Studio 2013\Projects\task_4.9\task_4.9\obj\Debug\task_4._9.Form1.resources
+C:\Users\Артур\Documents\Visual Studio 2013\Projects\task_4.9\task_4.9\obj\Debug\task_4._9.Properties.Resources.resources
+C:\Users\Артур\Documents\Visual Studio 2013\Projects\task_4.9\task_4.9\obj\Debug\task_4.9.csproj.GenerateResource.Cache
+C:\Users\Артур\Documents\Visual Studio 2013\Projects\task_4.9\task_4.9\obj\Debug\task_4.9.exe
+C:\Users\Артур\Documents\Visual Studio 2013\Projects\task_4.9\task_4.9\obj\Debug\task_4.9.pdb
+C:\Users\Артур\Documents\Visual Studio 2013\Projects\task_4.9\task_4.9\obj\Debug\task_4.9.csprojResolveAssemblyReference.cache

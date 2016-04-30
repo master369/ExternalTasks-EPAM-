@@ -1,0 +1,5 @@
+C:\Users\Master\documents\visual studio 2015\Projects\ConsoleApplication1\Task 1.9\bin\Debug\Task 1.9.exe.config
+C:\Users\Master\documents\visual studio 2015\Projects\ConsoleApplication1\Task 1.9\bin\Debug\Task 1.9.exe
+C:\Users\Master\documents\visual studio 2015\Projects\ConsoleApplication1\Task 1.9\bin\Debug\Task 1.9.pdb
+C:\Users\Master\documents\visual studio 2015\Projects\ConsoleApplication1\Task 1.9\obj\Debug\Task 1.9.exe
+C:\Users\Master\documents\visual studio 2015\Projects\ConsoleApplication1\Task 1.9\obj\Debug\Task 1.9.pdb

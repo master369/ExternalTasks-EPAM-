@@ -1,0 +1,6 @@
+c:\users\master\documents\visual studio 2015\Projects\Task3\Task3.1\bin\Debug\Task3.1.exe.config
+c:\users\master\documents\visual studio 2015\Projects\Task3\Task3.1\bin\Debug\Task3.1.exe
+c:\users\master\documents\visual studio 2015\Projects\Task3\Task3.1\bin\Debug\Task3.1.pdb
+c:\users\master\documents\visual studio 2015\Projects\Task3\Task3.1\obj\Debug\Task3.1.csprojResolveAssemblyReference.cache
+c:\users\master\documents\visual studio 2015\Projects\Task3\Task3.1\obj\Debug\Task3.1.exe
+c:\users\master\documents\visual studio 2015\Projects\Task3\Task3.1\obj\Debug\Task3.1.pdb

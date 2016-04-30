@@ -1,4 +1,6 @@
 packages
 /*.suo
-Web.Debug.config
-Web.config
+/WebSites/**/Web.Debug.config
+/WebSites/**/Web.config
+*.exe
+*.bin

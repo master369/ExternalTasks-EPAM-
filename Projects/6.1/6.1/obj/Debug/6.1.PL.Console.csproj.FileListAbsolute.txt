@@ -1,0 +1,46 @@
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\bin\Debug\6.1.exe.config
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\obj\Debug\6.1.PL.Console.csprojResolveAssemblyReference.cache
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\bin\Debug\6.1.exe
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\bin\Debug\6.1.pdb
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\bin\Debug\6.1.BLL.Core.dll
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\bin\Debug\6.1.Common.Entities.dll
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\bin\Debug\6.1.DAL.Fake.dll
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\bin\Debug\6.1.BLL.Core.pdb
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\bin\Debug\6.1.Common.Entities.pdb
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\bin\Debug\6.1.DAL.Fake.pdb
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\obj\Debug\6.1.exe
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\obj\Debug\6.1.pdb
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\bin\Debug\6.1.DAL.Abstracty.dll
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1\bin\Debug\6.1.DAL.Abstracty.pdb
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\bin\Debug\6.1.exe.config
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\obj\Debug\6.1.pdb
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\bin\Debug\6.1.exe
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\bin\Debug\6.1.pdb
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\bin\Debug\6.1.BLL.Core.dll
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\bin\Debug\6.1.Common.Entities.dll
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\bin\Debug\6.1.DAL.Abstracty.dll
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\bin\Debug\6.1.DAL.Fake.dll
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\bin\Debug\6.1.BLL.Core.pdb
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\bin\Debug\6.1.Common.Entities.pdb
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\bin\Debug\6.1.DAL.Abstracty.pdb
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\bin\Debug\6.1.DAL.Fake.pdb
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\obj\Debug\6.1.PL.Console.csprojResolveAssemblyReference.cache
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\obj\Debug\6.1.exe
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\bin\Debug\log4net.dll
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1\bin\Debug\log4net.xml
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\bin\Debug\6.1.exe.config
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\obj\Debug\6.1.exe
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\obj\Debug\6.1.pdb
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\bin\Debug\6.1.exe
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\bin\Debug\6.1.pdb
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\bin\Debug\6.1.BLL.Core.dll
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\bin\Debug\6.1.Common.Entities.dll
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\bin\Debug\log4net.dll
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\bin\Debug\6.1.DAL.Abstracty.dll
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\bin\Debug\6.1.DAL.Fake.dll
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\bin\Debug\6.1.BLL.Core.pdb
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\bin\Debug\6.1.Common.Entities.pdb
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\bin\Debug\log4net.xml
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\bin\Debug\6.1.DAL.Abstracty.pdb
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\bin\Debug\6.1.DAL.Fake.pdb
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1\obj\Debug\6.1.PL.Console.csprojResolveAssemblyReference.cache

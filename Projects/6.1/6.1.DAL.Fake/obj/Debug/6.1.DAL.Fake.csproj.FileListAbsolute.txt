@@ -1,0 +1,7 @@
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.DAL.Fake\bin\Debug\6.1.DAL.Fake.dll
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.DAL.Fake\bin\Debug\6.1.DAL.Fake.pdb
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.DAL.Fake\bin\Debug\6.1.Common.Entities.dll
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.DAL.Fake\bin\Debug\6.1.Common.Entities.pdb
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.DAL.Fake\obj\Debug\6.1.DAL.Fake.csprojResolveAssemblyReference.cache
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.DAL.Fake\obj\Debug\6.1.DAL.Fake.dll
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.DAL.Fake\obj\Debug\6.1.DAL.Fake.pdb

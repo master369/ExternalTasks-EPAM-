@@ -1,0 +1,5 @@
+C:\Users\Master\documents\visual studio 2015\Projects\ConsoleApplication1\Task 1.3\bin\Debug\Task 1.3.exe.config
+C:\Users\Master\documents\visual studio 2015\Projects\ConsoleApplication1\Task 1.3\bin\Debug\Task 1.3.exe
+C:\Users\Master\documents\visual studio 2015\Projects\ConsoleApplication1\Task 1.3\bin\Debug\Task 1.3.pdb
+C:\Users\Master\documents\visual studio 2015\Projects\ConsoleApplication1\Task 1.3\obj\Debug\Task 1.3.exe
+C:\Users\Master\documents\visual studio 2015\Projects\ConsoleApplication1\Task 1.3\obj\Debug\Task 1.3.pdb

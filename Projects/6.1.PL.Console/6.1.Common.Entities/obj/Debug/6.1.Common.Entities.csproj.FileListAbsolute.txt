@@ -1,0 +1,7 @@
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.Common.Entities\bin\Debug\6.1.Common.Entities.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.Common.Entities\bin\Debug\6.1.Common.Entities.pdb
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.Common.Entities\bin\Debug\log4net.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.Common.Entities\bin\Debug\log4net.xml
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.Common.Entities\obj\Debug\6.1.Common.Entities.csprojResolveAssemblyReference.cache
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.Common.Entities\obj\Debug\6.1.Common.Entities.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.Common.Entities\obj\Debug\6.1.Common.Entities.pdb

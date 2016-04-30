@@ -1,0 +1,18 @@
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.Common.Entities\bin\Debug\6.1.Common.Entities.dll
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.Common.Entities\bin\Debug\6.1.Common.Entities.pdb
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.Common.Entities\obj\Debug\6.1.Common.Entities.dll
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.Common.Entities\obj\Debug\6.1.Common.Entities.pdb
+C:\Users\Артур\documents\visual studio 2013\Projects\6.1\6.1.Common.Entities\obj\Debug\6.1.Common.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1.Common.Entities\bin\Debug\6.1.Common.Entities.dll
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1.Common.Entities\bin\Debug\6.1.Common.Entities.pdb
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1.Common.Entities\obj\Debug\6.1.Common.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1.Common.Entities\obj\Debug\6.1.Common.Entities.dll
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1.Common.Entities\obj\Debug\6.1.Common.Entities.pdb
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1.Common.Entities\bin\Debug\log4net.dll
+C:\Users\Master\Desktop\JJ\external tasks\6.1\6.1.Common.Entities\bin\Debug\log4net.xml
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1.Common.Entities\bin\Debug\6.1.Common.Entities.dll
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1.Common.Entities\bin\Debug\6.1.Common.Entities.pdb
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1.Common.Entities\bin\Debug\log4net.dll
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1.Common.Entities\bin\Debug\log4net.xml
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1.Common.Entities\obj\Debug\6.1.Common.Entities.dll
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1\6.1.Common.Entities\obj\Debug\6.1.Common.Entities.pdb
