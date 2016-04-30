@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Регистрация</title>
+    <meta charset="utf-8" />
+    <link href="libs/ResetCss.css" rel="stylesheet" />
+    <link href="Styles/Style.css" rel="stylesheet" />
+</head>
+<body>
+    <form method="post"
+          action="/login"
+          class="registration-form registration-form-default">
+        <h3 class="header header-default">Регистрация</h3>
+        <div class="container">
+            <div class="row">
+                <label for="email"
+                       class="block">Email</label>
+                <input id="email"
+                       type="text"
+                       class="block">
+            </div>
+            <div class="row half-row">
+                <label for="password"
+                       class="block">Пароль</label>
+                <input id="password"
+                       type="password"
+                       class="block">
+            </div>
+            <div class="push-row row half-row">
+                <label for="confirm_password"
+                       class="block">Еще раз</label>
+                <input id="confirm_password"
+                       type="password"
+                       class="block">
+            </div>
+            <button class="send-btn send-btn-default">Отправить</button>
+        </div>
+    </form>
+</body>
+</html>

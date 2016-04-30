@@ -1,2 +1,4 @@
 packages
 /*.suo
+Web.Debug.config
+Web.config

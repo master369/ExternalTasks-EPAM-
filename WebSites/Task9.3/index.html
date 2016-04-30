@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="main">
+        <div class="left-container">
+            <select class="menu left"
+                    multiple="multiple">
+                <option>Element 1</option>
+                <option>Element 2</option>
+                <option>Element 3</option>
+                <option>Element 4</option>
+                <option>Element 5</option>
+            </select>
+        </div>
+        <div class="right-container">
+            <select class="menu right"
+                    multiple="multiple">
+                <option>Element 6</option>
+                <option>Element 7</option>
+                <option>Element 8</option>
+                <option>Element 9</option>
+                <option>Element 10</option>
+            </select>
+        </div>
+        <div class="center middle">
+            <input class="button" type="button" onclick="MyApp.Functional.moveAll(this, 'left', 'right')" value=">>" />
+            <input class="button" type="button" onclick="MyApp.Functional.move(this, 'left', 'right');" value=">" />
+            <input class="button" type="button" onclick="MyApp.Functional.move(this, 'right', 'left');" value="<" />
+            <input class="button" type="button" onclick="MyApp.Functional.moveAll(this, 'right', 'left')" value="<<" />
+        </div>
+    </div>
+    <hr />
+    <hr />
+    <div class="main">
+        <div class="left-container">
+            <select class="menu left"
+                    multiple="multiple">
+                <option>Element 1</option>
+                <option>Element 2</option>
+                <option>Element 3</option>
+                <option>Element 4</option>
+                <option>Element 5</option>
+            </select>
+        </div>
+        <div class="right-container">
+            <select class="menu right"
+                    multiple="multiple">
+                <option>Element 6</option>
+                <option>Element 7</option>
+                <option>Element 8</option>
+                <option>Element 9</option>
+                <option>Element 10</option>
+                <option>Element 11</option>
+                <option>Element 12</option>
+            </select>
+        </div>
+        <div class="center middle">
+            <input class="button" type="button" onclick="MyApp.Functional.moveAll(this, 'left', 'right')" value=">>" />
+            <input class="button" type="button" onclick="MyApp.Functional.move(this, 'left', 'right');" value=">" />
+            <input class="button" type="button" onclick="MyApp.Functional.move(this, 'right', 'left');" value="<" />
+            <input class="button" type="button" onclick="MyApp.Functional.moveAll(this, 'right', 'left')" value="<<" />
+        </div>
+    </div>
+    <script src="initModule.js"></script>
+    <script src="scripts/utils.js"></script>
+    <script src="scripts/functional.js"></script>
+</body>
+</html>

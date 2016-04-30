@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Building a router</title>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#/page1">Page 1</a></li>
+        <li><a href="#/page2">Page 2</a></li>
+    </ul>
+    <div id="view"></div>
+    <div class="control-panel">
+        <!-- timeout -->
+        <p>Таймер: <span id="Timer">6</span></p>
+        <button class="toggle-play">Pause</button>
+    </div>
+
+    <script type="text/html" id="home">
+        <h1>Home page!</h1>
+    </script>
+    <script type="text/html" id="template1">
+        <h1>Page 1</h1>
+    </script>
+    <script type="text/html" id="template2">
+        <h1>Page 2</h1>
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

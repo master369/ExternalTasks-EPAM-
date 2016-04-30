@@ -1,0 +1,58 @@
+﻿html {
+    background: #000000;
+}
+
+.container {
+    overflow: hidden;
+    width: calc(100% - 60px);
+    margin: 30px auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+    .container > h3 {
+        background-color: #000000;
+        font: bold 1.8em arial;
+        display: inline-block;
+        position: absolute;
+        padding: 5px 5px 5px 15px;
+        height: 44px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+h3:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: -44px;
+    top: 0;
+    border: 22px solid transparent;
+    border-top: 22px solid #000000;
+    border-left: 22px solid #000000;
+}
+
+.title-default > h3 {
+    color: #b63;
+}
+
+.container > p {
+    padding: 10px;
+    margin: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 45px 10px 15px 10px;
+}
+
+
+.content-default {
+    background: linear-gradient(to top,#ddd,#eee);
+    color: #000000;
+}
+
+.upper-position {
+    font-size: 11px;
+    vertical-align: super;
+}

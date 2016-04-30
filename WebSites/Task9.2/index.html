@@ -1,0 +1,45 @@
+﻿<html>
+<head>
+    <title>Javascript - Calculator</title>
+
+    <script language=javascript type="text/javascript">
+        //var plus, minus, divide, times
+        //function initialise() {
+        //    plus = document.calc.operator.options[0]
+        //    minus = document.calc.operator.options[1]
+        //    divide = document.calc.operator.options[2]
+        //    times = document.calc.operator.options[3]
+        //}
+        //function calculate() {
+        //    x = parseInt(document.calc.val1.value)
+        //    y = parseInt(document.calc.val2.value)
+        //    if (plus.selected)
+        //        document.calc.answer.value = x + y
+        //    if (minus.selected)
+        //        document.calc.answer.value = x - y
+        //    if (divide.selected)
+        //        document.calc.answer.value = x / y
+        //    if (times.selected)
+        //        document.calc.answer.value = x * y
+        //}
+        function calculate() {
+            str = document.calc.val1.value;
+
+            f = new Function('', 'return ' + str);
+            document.calc.answer.value = f;
+        }
+    </script>
+
+</head>
+
+<body onLoad="initialise()">
+    <h2>Calculator</h2>
+    <form name="calc" action="post">
+        <input type=text name=val1 size=10>
+
+
+        <input type=text name=answer size=10>
+        <input type=button value=answer onClick="calculate()">
+    </form>
+</body>
+</html>

@@ -1,0 +1,78 @@
+﻿body {
+    font: 12px Tahoma,Arial,sans-serif;
+    background: #4e6379;
+}
+
+.hosting-container {
+    overflow: hidden;
+    width: 602px;
+    box-shadow: 0 25px 40px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    margin: auto;
+}
+
+.hosting-container-default {
+    background: #ffffff;
+}
+
+.hosting-item {
+    display: inline-block;
+    width: 195px;
+    border-left: 1px solid;
+    text-align: center;
+    margin: 14px 0;
+}
+
+.hosting-item-default {
+    border-left-color: #d9d9d9;
+}
+
+.hosting-item:first-child {
+    border: none;
+}
+
+.icon {
+    display: block;
+    width: 61px;
+    height: 32px;
+    background: url('/Content/images/Task 08.jpg') no-repeat;
+    margin: auto;
+}
+
+.icon-shared {
+    background-position: 0 0;
+}
+
+.icon-cloud {
+    background-position: 0 -32px;
+}
+
+.icon-personal {
+    background-position: 0 -64px;
+}
+
+.hosting-header {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.hosting-header-default {
+    color: #f56332;
+}
+
+.button {
+    border: hidden;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+    border-radius: 2px;
+}
+
+.button-default {
+    background: #f56332;
+    color: #ffffff;
+}
+
+.short-description {
+    margin: 14px;
+}

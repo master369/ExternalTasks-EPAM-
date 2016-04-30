@@ -1,0 +1,126 @@
+﻿ul {
+    list-style-type: none;
+    font-family: times;
+    padding: 0;
+}
+
+.menu-container {
+    margin: 30px;
+    position: relative;
+}
+/*зачем .menu-container > li если можно одним классом*/
+    .menu-container > li {
+        display: inline-block;
+        width: 60px;
+        position: relative;
+        line-height: 30px;
+        padding: 0 8px;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+
+        .menu-container > li:hover .u-menu-list {
+            display: block;
+        }
+
+
+        .menu-container > li:hover:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: -3px;
+            left: 0;
+            right: 0;
+            box-shadow: 0 0 7px 2px #C0C0C0;
+            border-radius: 5px 5px 0 0;
+            z-index: -1;
+        }
+
+/*.menu-list {
+}
+
+    .menu-list:hover:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: -3px;
+        left: 0;
+        right: 0;
+        box-shadow: 0 0 7px 2px #C0C0C0;
+        border-radius: 5px 5px 0 0;
+        z-index: -1;
+    }*/
+
+
+.menu-container-default a {
+    color: #3337D6;
+}
+
+.main {
+    text-decoration: underline;
+}
+
+.menu-container > li:hover .main {
+    text-decoration: none;
+}
+
+.menu-container-default > li:hover .main {
+    color: #000;
+}
+
+.u-menu-list {
+    display: none;
+    width: 130px;
+    position: absolute;
+    padding: 0;
+    left: 0;
+}
+
+    .u-menu-list:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 8px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        box-shadow: 0 0 7px 2px #C0C0C0;
+        z-index: -1;
+        border-radius: 0 5px 5px 5px;
+    }
+
+    .u-menu-list:after {
+        width: 62px;
+        height: 10px;
+        position: absolute;
+        content: '';
+        display: block;
+        box-shadow: 0 0 7px 2px #C0C0C0;
+        top: 1px;
+        left: 65px;
+        z-index: -1;
+    }
+
+.menu-list:hover .u-menu-list {
+    display: block;
+}
+
+.u-menu-list li a {
+    display: inline-block;
+    width: 100%;
+    line-height: 1.8em;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.u-menu-list-default li:hover a {
+    background-color: #37ABFF;
+    color: #ffffff;
+}
+
+.u-menu-list-default {
+    color: #3337D6;
+    background-color: #fff;
+}

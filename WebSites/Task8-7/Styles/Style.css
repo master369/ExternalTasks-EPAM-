@@ -1,0 +1,26 @@
+﻿h3 {
+    padding: 10px;
+    margin-bottom: -7px;
+    font-size: 1.1em;
+}
+
+.box > h3{
+    background: #008B66;
+    color: #fff;
+}
+
+p {
+    margin-left: 30px;
+    padding: 10px;
+    border: 1px solid;
+    border-right: none;
+}
+
+.box > p{
+    background: #dfe6e1;
+    border-color: #ffffff;
+}
+
+body {
+    width: 400px;
+}
