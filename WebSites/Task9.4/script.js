@@ -22,7 +22,7 @@
 
     document.addEventListener('DOMContentLoaded', function () {
         timerContainer = document.getElementById('timer');
-        timerContainer.innerText = countdownMax;
+        setInnerText(timerContainer, countdownMax);
 
         body.addEventListener('click', function (event) {
             var target = event.target;
@@ -30,8 +30,7 @@
             if (target.className.indexOf('toggle-play') === -1) {
                 return;
             }
-
-            target.innerText = isPlayState ? 'Play' : 'Pause';
+            setInnerText(target, isPlayState ? 'Play' : 'Pause');
 
             if (isPlayState) {
                 clearInterval(intervalId);
@@ -46,24 +45,34 @@
     initInterval();
 
     function initInterval() {
+        var pageListLength = pageHashList.length;
+
         intervalId = setInterval(function () {
             countdown--;
-            timerContainer.innerText = countdown;
+            setInnerText(timerContainer, countdown);
 
             if (countdown < 1) {
                 pageNumber++;
-                pageNumber %= pageHashList.length;
+
+                if (pageNumber === pageListLength) {
+                    var message = "Нажмите [ОК] чтобы вернуться на 1 страницу или [Cancel] чтобы закрыть окно браузера.",
+                        closeFlag = !confirm(message);
+
+                    if (closeFlag) {
+                        window.open('', '_self').close();
+                    }
+                }
+
+                pageNumber %= pageListLength;
                 changeLocationHash(pageHashList[pageNumber]);
                 countdown = countdownMax;
             }
-            
+
         }, timeTick);
-        //interval should update every 1 second 
     }
 
     function route(path, templateId) {
         routes[path] = { templateId: templateId };
-        pageNumber = pageHashList.indexOf(path);
     }
 
     function changeLocationHash(hash) {
@@ -80,5 +89,38 @@
         if (el) {
             el.innerHTML = document.getElementById(route.templateId).innerHTML;
         }
+
+        countdown = countdownMax;
+    }
+
+    //function closeWP() {
+    //    var Browser = navigator.appName;
+    //    var indexB = Browser.indexOf('Explorer');
+
+    //    if (indexB > 0) {
+    //        var indexV = navigator.userAgent.indexOf('MSIE') + 5;
+    //        var Version = navigator.userAgent.substring(indexV, indexV + 1);
+
+    //        if (Version >= 7) {
+    //            window.open('', '_self', '');
+    //            window.close();
+    //        }
+    //        else if (Version == 6) {
+    //            window.opener = null;
+    //            window.close();
+    //        }
+    //        else {
+    //            window.opener = '';
+    //            window.close();
+    //        }
+
+    //    }
+    //    else {
+    //        window.close();
+    //    }
+    //}
+
+    function setInnerText(container, text) {
+        container.textContent = container.innerText = text;
     }
 })(window);
