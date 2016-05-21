@@ -1,0 +1,5 @@
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1.PL.Console\Helpers\bin\Debug\Helpers.dll
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1.PL.Console\Helpers\bin\Debug\Helpers.pdb
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1.PL.Console\Helpers\obj\Debug\Helpers.dll
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1.PL.Console\Helpers\obj\Debug\Helpers.pdb
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1.PL.Console\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache

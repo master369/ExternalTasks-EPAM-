@@ -1,0 +1,60 @@
+﻿@using Task10.Models;
+@using _6._1.BLL.Interfaces;
+@{
+    IAccountBLL accountlogic = Commons.accountLogic;
+}
+
+@if (IsPost)
+{
+    var login = Request["Login"];
+    var password = Request["Password"];
+    var name = Request["Name"];
+    var birthday = Request["Birthday"];
+    if (String.IsNullOrWhiteSpace(name) || String.IsNullOrWhiteSpace(birthday))
+    {
+        Response.SetStatus(HttpStatusCode.BadRequest);
+        return;
+    }
+    if (DateTime.Now < DateTime.Parse(birthday))
+    {
+        Response.SetStatus(HttpStatusCode.BadRequest);
+        return;
+    }
+    var picture = Request.Files["UserPicture"];
+    byte[] imageContent = new byte[picture.ContentLength];
+    picture.InputStream.Read(imageContent, 0, imageContent.Length);
+    accountlogic.AddUser(login, password, name, DateTime.Parse(birthday), imageContent);
+
+    Response.Redirect("~");
+    return;
+
+
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+
+    <form action="~/Views/Account/Signup.cshtml" method="post" enctype="multipart/form-data" class="form-inline">
+        <div class="form-group">
+            <label class="control-label" for="Login">Login</label>
+            <input type="text" class="form-control" name="Login" id="Login" />
+            <label class="control-label" for="Name">Name</label>
+            <input type="text" class="form-control" name="Name" id="Name" />
+            <label class="control-label" for="Birthday">Birthday</label>
+            <input type="text" class="form-control" name="Birthday" id="Birthday" />
+            <label class="control-label" for="password">Password</label>
+            <input type="password" class="form-control" name="Password" id="Password" />
+            <label class="control-label" for="PasswordConfirm">Again</label>
+            <input type="password" class="form-control" name="PasswordConfirm" id="PasswordConfirm" />
+            <label class="control-label" for="PasswordConfirm">Again</label>
+            <input id="fileInput" type="file" name="Image" class="btn btn-default" />
+        </div>
+        <button type="submit" class="btn bg-success">Registration</button>
+    </form>
+</body>
+</html>

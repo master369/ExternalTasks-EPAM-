@@ -1,0 +1,46 @@
+﻿@using Task10.Models;
+@using _6._1.Common.Entities;
+@using _6._1.BLL.Interfaces;
+@using _6._1.DAL.DataBase;
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    IAwardBLL logicAward = Commons.awardsLogic;
+    IUserBLL logicUser = Commons.userLogic;
+    IRelationBLL logicRelation = Commons.relationLogic;
+}
+@if (IsPost)
+{
+    var userid = Request["usergroup"];
+    var awardid = Request["awardgroup"];
+    if (userid == null || awardid == null)
+    {
+        Response.SetStatus(HttpStatusCode.BadRequest);
+        return;
+    }
+    Relation relationship = new Relation(int.Parse(awardid), int.Parse(userid));
+    logicRelation.DeleteRelation(relationship);
+}
+<form action="~/Views/User/DeleteAward" method="post">
+    <h3>Пользователи:</h3>
+    @{
+        foreach (var item in logicUser.GetAll())
+        {
+            <div>
+                <input type="radio" name="usergroup" value="@item.Id">
+                @item.Name
+                @item.DoB.ToShortDateString();
+            </div>
+        }
+        <h3>Награды</h3>
+        foreach (var item in logicAward.GetAll())
+        {
+            <div>
+                <input type="radio" name="awardgroup" value="@item.Id">
+                @item.Name
+            </div>
+        }
+    }
+    <button type="submit" class="btn btn-danger">Удалить</button>
+</form>

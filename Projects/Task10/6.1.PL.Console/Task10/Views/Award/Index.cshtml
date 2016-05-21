@@ -1,0 +1,52 @@
+﻿@using _6._1.BLL.Core;
+@using _6._1.BLL.Interfaces;
+@{
+    IAwardBLL logicAward = Task10.Models.Commons.awardsLogic;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<a href="~/Views/Award/CreateAward" class="btn btn-default">Award Create</a>
+<a href="~/Views/Award/DeleteAward" class="btn btn-default">Award Delete</a>
+<a href="~/Views/Award/ViewUsers" class="btn btn-default">View Users</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Photo</th>
+            <th>Title</th>
+            <th>Update</th>
+            <th>remove</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var item in logicAward.GetAll())
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>
+                        <div c>
+
+                            @Html.Raw("<img style='width:50px; height:50px;' src=\"data:image/jpeg;base64,"
+                                + Convert.ToBase64String(item.Image) + "\" />")
+
+                        </div>
+                    </td>
+                    <td>@item.Name</td>
+                    <td>
+                        <form action="~/EditAward" method="post">
+                            <input type="hidden" class="id" name="Id" value="@item.Id" />
+                            <input type="hidden" class="title" name="Title" value="@item.Name" />
+                            <button type="submit" class="btn btn-default btn-sm edit">Edit</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="~/DeleteAward" method="post">
+                            <input type="hidden" class="id" name="Id" value="@item.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm open">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

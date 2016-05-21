@@ -1,0 +1,16 @@
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\bin\Debug\6.1.PL.Console.exe.config
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\bin\Debug\6.1.PL.Console.exe
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\bin\Debug\6.1.PL.Console.pdb
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\bin\Debug\6.1.BLL.Core.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\bin\Debug\6.1.Common.Entities.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\bin\Debug\log4net.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\bin\Debug\6.1.DAL.Interfaces.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\bin\Debug\6.1.DAL.TextFiles.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\bin\Debug\6.1.BLL.Core.pdb
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\bin\Debug\6.1.Common.Entities.pdb
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\bin\Debug\log4net.xml
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\bin\Debug\6.1.DAL.Interfaces.pdb
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\bin\Debug\6.1.DAL.TextFiles.pdb
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\obj\Debug\6.1.PL.Console.csprojResolveAssemblyReference.cache
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\obj\Debug\6.1.PL.Console.exe
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.PL.Console\obj\Debug\6.1.PL.Console.pdb

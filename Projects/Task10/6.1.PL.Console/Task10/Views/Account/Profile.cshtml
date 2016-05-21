@@ -1,0 +1,70 @@
+﻿@using Task10.Models;
+@using _6._1.Common.Entities;
+@using _6._1.BLL.Interfaces;
+@using _6._1.DAL.DataBase;
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    IAccountBLL logicRole = Task10.Models.Commons.accountLogic;
+    if (IsPost)
+    {
+        var name = Request["Name"];
+        var roles = Request["Role"];
+        if (roles.Contains("Admin"))
+        {
+            Roles.RemoveUsersFromRoles(new string[] { name }, new string[] { "Admin" });
+        }
+        else
+        {
+            Roles.AddUsersToRoles(new string[] { name }, new string[] { "Admin" });
+        }
+    }
+    else
+    {
+        if (User.IsInRole("Admin"))
+        {
+            Layout = "~/_Layout.cshtml";
+
+        }
+    }
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Роли</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in logicRole.GetAll())
+            {
+            <tr>
+                <td class="col-xs-2">@item.Name</td>
+                <td class="col-xs-2">
+                    @foreach (var role in item.Roles)
+                    {
+                        <p>@role</p>
+                    }
+                </td>
+                @if (item.Name != User.Identity.Name)
+                {
+                    <td>
+                        <form action="~/AdminPage" method="post">
+                            <input type="hidden" value="@item.Name" name="Name">
+                            <input type="hidden" value="@item.Roles.Last()" name="Role">
+                            @if (item.Roles.Contains("Admin"))
+                            {
+                                <button type="submit" class="btn btn-danger">Назначить пользователем пользователя</button>
+                            }
+                            else
+                            {
+                                <button type="submit" class="btn btn-primary">Назначить пользователя администратором</button>
+                            }
+                        </form>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,25 @@
+﻿@using _6._1.BLL.Core;
+@using _6._1.BLL.Interfaces;
+@using _6._1.Common.Entities;
+@{
+    IAwardBLL logicAward = Task10.Models.Commons.awardsLogic;
+}
+@if (IsPost)
+{
+    var Name = Request["Name"];
+    var picture = Request.Files["AwardPicture"];
+    if (String.IsNullOrWhiteSpace(Name))
+    {
+        Response.SetStatus(HttpStatusCode.BadRequest);
+        return;
+    }
+
+    Response.Redirect("~/ShowAwards");
+    return;
+}
+
+<form action="~/CreateAward" method="post" enctype="multipart/form-data">
+    <input name="Name" type="text" />
+    <input type="file" name="AwardPicture" accept="image/jpeg">
+    <button type="submit" class="btn btn-success">Add</button>
+</form>

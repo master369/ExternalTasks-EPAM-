@@ -1,0 +1,30 @@
+2016-05-16 02:52:06,623 [1] ERROR ConsoleApplication1.Program DoB
+2016-05-16 02:52:39,192 [1] ERROR _6._1.BLL.Core.UsersLogic Недопустимое имя столбца "DoB".
+2016-05-16 02:52:45,214 [1] ERROR ConsoleApplication1.Program DoB
+2016-05-16 02:55:02,740 [1] ERROR ConsoleApplication1.Program Строка не распознана как действительное значение DateTime.
+2016-05-16 02:55:31,875 [1] ERROR _6._1.BLL.Core.UsersLogic Не удалось вставить значение NULL в столбец "Id", таблицы "SqlDal.dbo.Users"; в столбце запрещены значения NULL. Ошибка в INSERT.
+Выполнение данной инструкции было прервано.
+2016-05-16 02:55:42,017 [1] ERROR _6._1.BLL.Core.UsersLogic Недопустимое имя столбца "DoB".
+2016-05-16 02:55:42,022 [1] ERROR ConsoleApplication1.Program Недопустимое имя столбца "DoB".
+2016-05-16 02:58:29,670 [1] ERROR _6._1.BLL.Core.UsersLogic Недопустимое имя столбца "UserId".
+Недопустимое имя столбца "AwardId".
+2016-05-16 02:58:29,703 [1] ERROR ConsoleApplication1.Program Недопустимое имя столбца "UserId".
+Недопустимое имя столбца "AwardId".
+2016-05-16 02:58:53,694 [1] ERROR _6._1.BLL.Core.UsersLogic Не удалось вставить значение NULL в столбец "Id", таблицы "SqlDal.dbo.Users"; в столбце запрещены значения NULL. Ошибка в INSERT.
+Выполнение данной инструкции было прервано.
+2016-05-16 03:00:17,740 [7] ERROR _6._1.BLL.Core.UsersLogic Не удалось вставить значение NULL в столбец "Id", таблицы "SqlDal.dbo.Users"; в столбце запрещены значения NULL. Ошибка в INSERT.
+Выполнение данной инструкции было прервано.
+2016-05-16 03:00:29,199 [7] ERROR _6._1.BLL.Core.UsersLogic Недопустимое имя столбца "UserId".
+Недопустимое имя столбца "AwardId".
+2016-05-16 03:00:29,211 [7] ERROR ConsoleApplication1.Program Недопустимое имя столбца "UserId".
+Недопустимое имя столбца "AwardId".
+2016-05-16 13:11:06,814 [1] ERROR _6._1.BLL.Core.UsersLogic Недопустимое имя столбца "UserId".
+Недопустимое имя столбца "AwardId".
+2016-05-16 13:11:06,853 [1] ERROR ConsoleApplication1.Program Недопустимое имя столбца "UserId".
+Недопустимое имя столбца "AwardId".
+2016-05-16 13:11:32,987 [1] ERROR _6._1.BLL.Core.UsersLogic Недопустимое имя столбца "UserId".
+Недопустимое имя столбца "AwardId".
+2016-05-16 13:11:32,992 [1] ERROR ConsoleApplication1.Program Недопустимое имя столбца "UserId".
+Недопустимое имя столбца "AwardId".
+2016-05-16 13:11:41,918 [1] ERROR _6._1.BLL.Core.UsersLogic Недопустимое имя столбца "UserId".
+Недопустимое имя столбца "AwardId".

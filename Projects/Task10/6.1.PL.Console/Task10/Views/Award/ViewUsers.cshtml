@@ -1,0 +1,41 @@
+﻿@using Task10.Models;
+@using _6._1.Common.Entities;
+@using _6._1.BLL.Interfaces;
+@using _6._1.DAL.DataBase;
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    IAwardBLL logicAward = Commons.awardsLogic;
+    IUserBLL logicUser = Commons.userLogic;
+    IRelationBLL logicRelation = Commons.relationLogic;
+}
+<form action="~/Awards/ViewUsers" method="post">
+    @{
+        foreach (var item in logicAward.GetAll())
+        {
+            <div>
+                <input type="radio" name="awardgroup" value="@item.Id">
+                @item.Name
+            </div>
+        }
+    }
+    <button type="submit" class="btn btn-info btn-sm">Показать</button>
+</form>
+@if (IsPost)
+{
+    var awardid = Request["awardgroup"];
+    if (awardid == null)
+    {
+        Response.SetStatus(HttpStatusCode.BadRequest);
+        return;
+    }
+    var items = logicRelation.GetUsersAtAward(int.Parse(awardid));
+    foreach (var item in items)
+    {
+        <div>
+            @item.Name
+            @item.DoB.ToShortDateString()
+        </div>
+    }
+}

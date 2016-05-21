@@ -1,0 +1,10 @@
+﻿@{ 
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form id="loginform" action="~/Views/User/AddUpdate" method="post" enctype="multipart/form-data">
+    <input type="text" class="name" name="Name" value="@Request["Name"]" />
+    <input type="date" class="name" name="UserDate" value="@Request["UserDate"]" />
+    <input type="file" name="UserPicture" accept="image/*">
+    <input type="hidden" class="id" name="Id" value="@Request["Id"]" />
+    <button type="submit" class="btn btn-success edit">Редактировать</button>
+</form>

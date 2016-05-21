@@ -1,0 +1,47 @@
+﻿@using _6._1.BLL.Core;
+@using _6._1.BLL.Interfaces;
+@using _6._1.Common.Entities;
+@{
+    IUserBLL logicUser = Task10.Models.Commons.userLogic;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+@if (IsPost)
+{
+    var name = Request["Name"];
+    var date = Request["UserDate"];
+    if (String.IsNullOrWhiteSpace(name) || String.IsNullOrWhiteSpace(date))
+    {
+        Response.SetStatus(HttpStatusCode.BadRequest);
+        return;
+    }
+    if (DateTime.Now < DateTime.Parse(date))
+    {
+        Response.SetStatus(HttpStatusCode.BadRequest);
+        return;
+    }
+    var picture = Request.Files["UserPicture"];
+    User user;
+    if (picture.ContentLength != 0)
+    {
+        byte[] imageContent = new byte[picture.ContentLength];
+        picture.InputStream.Read(imageContent, 0, imageContent.Length);
+        user = new User(name, DateTime.Parse(date), imageContent);
+    }
+    else
+    {
+        user = new User(name, DateTime.Parse(date));
+    }
+    logicUser.Create(user);
+    Response.Redirect("~/Views/User/Index");
+    return;
+}
+
+
+
+<form id="loginform" action="~/Views/User/Create" method="post" enctype="multipart/form-data">
+    <input type="text" name="Name" />
+    <input type="date" name="UserDate" />
+    <input type="file" name="UserPicture" accept="image/*">
+    <button type="submit" class="btn btn-success">Добавить</button>
+</form>

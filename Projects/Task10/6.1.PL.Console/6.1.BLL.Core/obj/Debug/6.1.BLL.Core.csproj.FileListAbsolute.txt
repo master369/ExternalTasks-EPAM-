@@ -1,0 +1,17 @@
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\6.1.BLL.Core.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\6.1.BLL.Core.pdb
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\6.1.Common.Entities.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\6.1.DAL.Interfaces.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\6.1.DAL.TextFiles.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\log4net.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\6.1.Common.Entities.pdb
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\6.1.DAL.Interfaces.pdb
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\6.1.DAL.TextFiles.pdb
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\log4net.xml
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\obj\Debug\6.1.BLL.Core.csprojResolveAssemblyReference.cache
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\obj\Debug\6.1.BLL.Core.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\obj\Debug\6.1.BLL.Core.pdb
+C:\Users\Master\Documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\6.1.BLL.Interfaces.dll
+C:\Users\Master\Documents\visual studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\6.1.BLL.Interfaces.pdb
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\6.1.DAL.DataBase.dll
+C:\Users\Master\Documents\Visual Studio 2015\Projects\6.1.PL.Console\6.1.BLL.Core\bin\Debug\6.1.DAL.DataBase.pdb

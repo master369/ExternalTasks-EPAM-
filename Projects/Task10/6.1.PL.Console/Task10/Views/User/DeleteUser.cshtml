@@ -1,0 +1,17 @@
+﻿@using _6._1.BLL.Interfaces;
+@using Task10.Models;
+@{
+    IUserBLL logicUser = Commons.userLogic;
+}
+@if (IsPost)
+{
+    var id = Request["Id"];
+    logicUser.Delete(int.Parse(id));
+    Response.Redirect("~/Views/User/Index");
+    return;
+}
+else
+{
+    Response.SetStatus(HttpStatusCode.BadRequest);
+    return;
+}

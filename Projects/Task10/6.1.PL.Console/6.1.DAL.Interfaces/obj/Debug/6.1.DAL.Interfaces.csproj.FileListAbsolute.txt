@@ -1,0 +1,9 @@
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.DAL.Interfaces\bin\Debug\6.1.DAL.Interfaces.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.DAL.Interfaces\bin\Debug\6.1.DAL.Interfaces.pdb
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.DAL.Interfaces\bin\Debug\6.1.Common.Entities.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.DAL.Interfaces\bin\Debug\log4net.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.DAL.Interfaces\bin\Debug\6.1.Common.Entities.pdb
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.DAL.Interfaces\bin\Debug\log4net.xml
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.DAL.Interfaces\obj\Debug\6.1.DAL.Interfaces.csprojResolveAssemblyReference.cache
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.DAL.Interfaces\obj\Debug\6.1.DAL.Interfaces.dll
+c:\users\master\documents\visual studio 2015\Projects\6.1.PL.Console\6.1.DAL.Interfaces\obj\Debug\6.1.DAL.Interfaces.pdb

@@ -1,0 +1,55 @@
+﻿@using Task10.Models;
+@using _6._1.Common.Entities;
+@using _6._1.BLL.Interfaces;
+@using _6._1.DAL.DataBase;
+@{
+    IUserBLL logicUser = Commons.userLogic;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<a href="~/Views/User/AddAward" class="btn btn-default">User Add Award</a>
+<a href="~/Views/User/Create" class="btn btn-default">User Add</a>
+<a href="~/Views/User/DeleteUser" class="btn btn-default">User Delete</a>
+<a href="~/Views/User/DeleteAward" class="btn btn-default">DeleteAward</a>
+<a href="~/Views/User/ViewAward" class="btn btn-default">ViewAward</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Icon</th>
+            <th>Name</th>
+            <th>Birthday</th>
+            <th>Age</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody class="notes-list">
+        @foreach (var user in logicUser.GetAll())
+            {
+            <tr>
+                <td>@user.Id</td>
+                <td>
+                    @Html.Raw("<img style='width:50px; height:50px;' src=\"data:image/jpeg;base64,"
+                                + Convert.ToBase64String(user.Image) + "\" />")
+                </td>
+                <td>@user.Name </td>
+                <td>@user.DoB.ToShortDateString()</td>
+                <td>@user.Age </td>
+                <td>
+                    <form action="~/Views/User/Update" method="post">
+                        <input type="hidden" class="id" name="Id" value="@user.Id" />
+                        <input type="hidden" class="title" name="Title" value="@user.Name" />
+                        <button type="submit" class="btn btn-default btn-sm edit">Update</button>
+                    </form>
+                </td>
+                <td>
+                    <form action="~/Views/User/DeleteUser" method="post">
+                        <input type="hidden" class="id" name="Id" value="@user.Id" />
+                        <button type="submit" class="btn btn-danger btn-sm open">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+</table>

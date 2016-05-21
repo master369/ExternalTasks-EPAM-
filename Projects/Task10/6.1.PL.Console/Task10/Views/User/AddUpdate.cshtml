@@ -1,0 +1,44 @@
+﻿@using _6._1.BLL.Interfaces;
+@using _6._1.Common.Entities;
+@using Task10.Models;
+@{
+    IUserBLL logicUser = Commons.userLogic;
+
+}
+@if (IsPost)
+{
+    var id = Request["Id"];
+    var username = Request["Name"];
+    var date = Request["UserDate"];
+    var picture = Request.Files["UserPicture"];
+    if (String.IsNullOrWhiteSpace(username) || String.IsNullOrWhiteSpace(date) || String.IsNullOrWhiteSpace(id))
+    {
+        Response.SetStatus(HttpStatusCode.BadRequest);
+        return;
+    }
+    if (DateTime.Now < DateTime.Parse(date))
+    {
+        Response.SetStatus(HttpStatusCode.BadRequest);
+        return;
+    }
+    User user;
+    if (picture.ContentLength != 0)
+    {
+        byte[] imageContent = new byte[picture.ContentLength];
+        picture.InputStream.Read(imageContent, 0, imageContent.Length);
+        var type = picture.ContentType;
+        user = new User(int.Parse(id), username, DateTime.Parse(date), imageContent);
+    }
+    else
+    {
+        user = new User(int.Parse(id), username, DateTime.Parse(date));
+    }
+    logicUser.Update(user);
+    Response.Redirect("~/Views/User/Index");
+    return;
+}
+else
+{
+    Response.SetStatus(HttpStatusCode.BadRequest);
+    return;
+}
