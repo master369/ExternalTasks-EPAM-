@@ -14,10 +14,10 @@
     @{
         foreach (var item in logicUser.GetAll())
         {
-            <div class="radio">
+            <div >
                 <input type="radio" name="usergroup" value="@item.Id">
                 @item.Name
-                @item.DoB.ToShortDateString();
+                @item.DoB.ToShortDateString()
             </div>
         }
     }

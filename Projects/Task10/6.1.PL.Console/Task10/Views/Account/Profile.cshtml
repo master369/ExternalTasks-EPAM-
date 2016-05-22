@@ -50,7 +50,7 @@
                 @if (item.Name != User.Identity.Name)
                 {
                     <td>
-                        <form action="~/AdminPage" method="post">
+                        <form action="~/Views/Account/Profile" method="post">
                             <input type="hidden" value="@item.Name" name="Name">
                             <input type="hidden" value="@item.Roles.Last()" name="Role">
                             @if (item.Roles.Contains("Admin"))
