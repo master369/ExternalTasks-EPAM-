@@ -1,9 +1,23 @@
-﻿<!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-
-    </body>
-</html>
+﻿@using Task10.Models;
+@using _6._1.Common.Entities;
+@using _6._1.BLL.Interfaces;
+@using _6._1.DAL.DataBase;
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    IAwardBLL logicAward = Commons.awardsLogic;
+    IUserBLL logicUser = Commons.userLogic;
+    IRelationBLL logicRelation = Commons.relationLogic;
+}
+@if (IsPost)
+{
+    var id = Request["Id"];
+    logicAward.Delete(int.Parse(id));
+    Response.Redirect("~/Views/Award/Index");
+    return;
+}
+else
+{
+    Response.SetStatus(HttpStatusCode.BadRequest);
+}

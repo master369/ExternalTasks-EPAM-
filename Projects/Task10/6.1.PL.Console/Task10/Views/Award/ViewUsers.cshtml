@@ -14,7 +14,7 @@
     @{
         foreach (var item in logicAward.GetAll())
         {
-            <div>
+            <div class="radio">
                 <input type="radio" name="awardgroup" value="@item.Id">
                 @item.Name
             </div>
